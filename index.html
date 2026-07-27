@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INNOVAGRO — Plataforma Integral para el análisis de datos agrícolas</title>
+<meta name="description" content="Optimiza tu operación agrícola con INNOVAGRO. Analiza ortofotos, maquinaria y datos en tiempo real. Cultiva con datos.">
+<link rel="icon" type="image/svg+xml" href="assets/INNOVAGRO-favicon.svg">
+<link rel="canonical" href="https://inovagro.mx/">
+<meta name="theme-color" content="#005236">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="INNOVAGRO">
+<meta property="og:title" content="INNOVAGRO — Plataforma Integral para el análisis de datos agrícolas">
+<meta property="og:description" content="Optimiza tu operación agrícola con INNOVAGRO. Analiza ortofotos, maquinaria y datos en tiempo real. Cultiva con datos.">
+<meta property="og:url" content="https://inovagro.mx/">
+<meta property="og:image" content="https://inovagro.mx/assets/og-image.jpg">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="INNOVAGRO — Plataforma Integral para el análisis de datos agrícolas">
+<meta name="twitter:description" content="Optimiza tu operación agrícola con INNOVAGRO. Analiza ortofotos, maquinaria y datos en tiempo real. Cultiva con datos.">
+<meta name="twitter:image" content="https://inovagro.mx/assets/og-image.jpg">
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+
+</head>
+<body>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',sans-serif;color:#131714;background:#fff;line-height:1.5;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  a:hover{color:#005236}
+  summary::-webkit-details-marker{display:none}
+  @keyframes marquee{to{transform:translateX(-50%)}}
+  @keyframes auroraDrift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(50px,-34px) scale(1.14)}100%{transform:translate(0,0) scale(1)}}
+  @keyframes auroraDrift2{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-44px,30px) scale(1.12)}100%{transform:translate(0,0) scale(1)}}
+  @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+  @keyframes floatY2{0%,100%{transform:translateY(0)}50%{transform:translateY(13px)}}
+  @keyframes tileFloat{from{transform:translateY(0)}to{transform:translateY(-9px)}}
+  @media(max-width:900px){
+    [data-float]{display:none!important}
+  }
+  @media(max-width:900px){
+    [data-hero-grid]{grid-template-columns:1fr!important;gap:8px!important}
+    [data-func-grid]{grid-template-columns:1fr!important}
+    [data-faq-grid]{grid-template-columns:1fr!important;gap:24px!important}
+    [data-foot-grid]{grid-template-columns:1fr!important}
+    [data-metrics]{flex-direction:column!important;gap:28px!important}
+    [data-metrics]>div{border-right:none!important;padding:0!important}
+  }
+  @media(max-width:720px){
+    [data-nav]{display:none!important}
+    [data-form]{padding:26px 22px!important}
+  }
+</style>
+
+
+<div style="position:relative;overflow-x:hidden">
+
+  <!-- ===================== NAV ===================== -->
+  <header style="position:sticky;top:14px;z-index:100;padding:0 24px">
+    <div style="max-width:1160px;margin:0 auto">
+      <div data-glow style="position:relative;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.55);backdrop-filter:blur(22px) saturate(1.7);-webkit-backdrop-filter:blur(22px) saturate(1.7);border:1px solid rgba(255,255,255,.75);border-radius:20px;padding:11px 20px;box-shadow:0 10px 34px rgba(0,60,40,.1),inset 0 1px 0 rgba(255,255,255,.9)">
+        <a href="#inicio" style="display:flex;align-items:center;gap:9px">
+          <svg viewBox="0 0 100 100" style="width:34px;height:34px;flex:none"><ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(-24 50 53)" stroke="#15B89A" stroke-width="2.4" fill="none"/><ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(26 50 53)" stroke="#9BC53A" stroke-width="2.4" fill="none"/><path d="M50,82 C50,70 50,64 50,55" stroke="#2F7D43" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M50,59.1 C39.6,60 31.4,53.6 30.75,41.3 C42.85,40.45 50,48.05 50,59.1 Z" fill="#2F7D43"/><path d="M50,52.3 C61.9,53.05 73.3,46.15 74.15,33.5 C59.7,33.15 50,40.3 50,52.3 Z" fill="#6FB23A"/></svg>
+          <span style="font-family:'Outfit';font-weight:600;font-size:18px;letter-spacing:3px;color:#18402B">INNOVAGRO</span>
+          <span style="display:flex;align-items:baseline;gap:4px;margin-left:6px;padding-left:12px;border-left:1px solid rgba(0,0,0,.1)"><em style="font-style:italic;font-size:12px;color:#6d6d6d">by</em><b style="font-weight:600;font-size:15px;color:#005236">dataris</b></span>
+        </a>
+        <nav data-nav style="display:flex;align-items:center;gap:26px;font-size:15px;color:#2a332e">
+          <a href="#funcionalidades" style="transition:color .2s">Funcionalidades</a>
+          <a href="#faq" style="transition:color .2s">FAQ</a>
+          <a href="#contacto" style="transition:color .2s">Contacto</a>
+          <a href="#contacto" style="background:linear-gradient(135deg,#005236,#27B082);color:#fff;padding:11px 22px;border-radius:999px;font-weight:500;box-shadow:0 6px 16px rgba(0,82,54,.28)">Solicitar demo</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="inicio" data-stage style="position:relative;padding:52px 24px 40px;overflow:hidden">
+    <div style="position:absolute;top:-120px;right:-40px;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(39,176,130,.34),transparent 66%);filter:blur(24px);animation:auroraDrift2 20s ease-in-out infinite;z-index:0"></div>
+    <div style="position:absolute;bottom:-180px;left:-80px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(155,197,58,.28),transparent 66%);filter:blur(26px);animation:auroraDrift 18s ease-in-out infinite;z-index:0"></div>
+
+    <div data-hero-grid style="position:relative;z-index:2;max-width:1160px;margin:0 auto;display:grid;grid-template-columns:.92fr 1.08fr;gap:24px;align-items:center">
+      <div data-reveal style="opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <span data-glow style="position:relative;display:inline-block;font-size:13px;color:#0d6b48;font-weight:500;background:rgba(255,255,255,.6);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.8);border-radius:999px;padding:6px 16px;box-shadow:0 4px 14px rgba(0,60,40,.08)">🌱 Cultiva con datos</span>
+        <h1 style="font-size:clamp(40px,4.6vw,60px);font-weight:500;line-height:1.05;letter-spacing:-.04em;color:#131714;margin-top:20px">Plataforma Integral para el análisis de <span style="background:linear-gradient(120deg,#005236,#27B082);-webkit-background-clip:text;background-clip:text;color:transparent">datos agrícolas</span></h1>
+        <p style="font-size:19px;color:#55605a;max-width:460px;margin-top:22px;line-height:1.5">Optimiza tu operación agrícola con INNOVAGRO. Analiza ortofotos, maquinaria y datos en tiempo real para aumentar eficiencia y productividad.</p>
+        <div style="margin-top:30px"><a href="#contacto" style="display:inline-block;background:linear-gradient(135deg,#005236,#27B082);color:#fff;padding:15px 34px;border-radius:999px;font-weight:500;font-size:16px;box-shadow:0 10px 26px rgba(0,82,54,.32)">Solicitar demo gratuita</a></div>
+      </div>
+
+      <div style="position:relative;display:flex;justify-content:center;padding:132px 0 132px">
+        <div style="position:relative">
+          <div data-float data-depth="30" style="position:absolute;left:-140px;top:-118px;z-index:12"><div style="animation:floatY 7s ease-in-out infinite">
+            <div data-glow style="position:relative;width:238px;background:rgba(255,255,255,.55);backdrop-filter:blur(22px) saturate(1.7);-webkit-backdrop-filter:blur(22px) saturate(1.7);border:1px solid rgba(255,255,255,.7);border-left:3px solid #27B082;border-radius:18px;padding:14px 15px;box-shadow:0 18px 46px rgba(0,60,40,.16),inset 0 1px 0 rgba(255,255,255,.9)">
+              <div style="display:flex;align-items:center;gap:6px;font-weight:600;font-size:12px;color:#1c2620">✅ Óptimo para cosecha<span style="margin-left:auto;font-size:9px;background:rgba(39,176,130,.14);border-radius:6px;padding:3px 7px;color:#0d6b48;white-space:nowrap">87% conf.</span></div>
+              <p style="color:#55605a;font-size:11px;line-height:1.5;margin-top:7px">Los indicadores de madurez sugieren que el Lote Norte alcanzará su punto óptimo de cosecha en 12 días.</p>
+              <div style="display:flex;gap:10px;margin-top:9px;font-size:9px;color:#6d6d6d;align-items:center">🕒 12 días<b style="background:rgba(0,82,54,.08);padding:3px 8px;border-radius:6px;color:#0d6b48;font-weight:500">Alto impacto</b></div>
+            </div></div></div>
+          <div data-float data-depth="38" style="position:absolute;right:-140px;bottom:-118px;z-index:12"><div style="animation:floatY2 8s ease-in-out infinite">
+            <div data-glow style="position:relative;width:238px;background:rgba(255,255,255,.55);backdrop-filter:blur(22px) saturate(1.7);-webkit-backdrop-filter:blur(22px) saturate(1.7);border:1px solid rgba(255,255,255,.7);border-left:3px solid #d9a013;border-radius:18px;padding:14px 15px;box-shadow:0 18px 46px rgba(0,60,40,.16),inset 0 1px 0 rgba(255,255,255,.9)">
+              <div style="display:flex;align-items:center;gap:6px;font-weight:600;font-size:12px;color:#1c2620">⚠️ Riesgo de estrés hídrico<span style="margin-left:auto;font-size:9px;background:rgba(217,160,19,.16);border-radius:6px;padding:3px 7px;color:#976b00;white-space:nowrap">72% conf.</span></div>
+              <p style="color:#55605a;font-size:11px;line-height:1.5;margin-top:7px">Sin precipitaciones previstas y alta evapotranspiración, el sector Este podría entrar en estrés hídrico.</p>
+              <div style="display:flex;gap:10px;margin-top:9px;font-size:9px;color:#6d6d6d;align-items:center">🕒 7 días<b style="background:rgba(217,160,19,.12);padding:3px 8px;border-radius:6px;color:#976b00;font-weight:500">Impacto medio</b></div>
+            </div></div></div>
+          <div data-float data-depth="50" style="position:absolute;right:-120px;top:-70px;z-index:14"><div style="animation:floatY 6.5s ease-in-out infinite"><span style="display:inline-block;background:linear-gradient(135deg,#005236,#0a7a52);color:#fff;font-size:13px;font-weight:500;padding:8px 16px;border-radius:999px;box-shadow:0 10px 26px rgba(0,60,40,.3)">Maximiza tu rendimiento</span></div></div>
+          <div data-float data-depth="44" style="position:absolute;left:-120px;bottom:-70px;z-index:14"><div style="animation:floatY2 7.5s ease-in-out infinite"><span style="display:inline-block;background:linear-gradient(135deg,#005236,#0a7a52);color:#fff;font-size:13px;font-weight:500;padding:8px 16px;border-radius:999px;box-shadow:0 10px 26px rgba(0,60,40,.3)">Control en tiempo real</span></div></div>
+          <div data-depth="14" style="position:relative;z-index:10"><div style="width:300px;position:relative;font-family:'Inter',sans-serif">
+  <!-- device -->
+  <div style="position:relative;background:linear-gradient(150deg,#3c4340 0%,#20262300 40%,#181c1a 100%),linear-gradient(150deg,#4a524d,#161a18);border-radius:48px;padding:11px;box-shadow:0 40px 80px -20px rgba(0,50,32,.45),0 12px 30px rgba(0,30,20,.25),inset 0 1px 1px rgba(255,255,255,.25),inset 0 0 0 1px rgba(0,0,0,.4);">
+    <!-- screen -->
+    <div style="position:relative;background:#eef3ef;border-radius:38px;overflow:hidden;height:604px;box-shadow:inset 0 0 0 2px rgba(0,0,0,.55);">
+      <!-- ambient screen glow -->
+      <div style="position:absolute;inset:0;background:radial-gradient(120% 60% at 50% -10%,rgba(39,176,130,.22),transparent 60%),radial-gradient(90% 50% at 110% 40%,rgba(155,197,58,.16),transparent 60%);pointer-events:none"></div>
+      <!-- dynamic island -->
+      <div style="position:absolute;top:12px;left:50%;transform:translateX(-50%);width:96px;height:26px;background:#0a0d0b;border-radius:16px;z-index:6;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)"></div>
+
+      <div style="position:relative;z-index:4;padding:44px 15px 0;height:100%">
+        <!-- app bar -->
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+          <span style="font-size:16px;color:#4a5450">☰</span>
+          <div style="display:flex;align-items:center;gap:6px">
+            <svg viewBox="0 0 100 100" style="width:20px;height:20px" aria-hidden="true">
+              <ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(-24 50 53)" stroke="#15B89A" stroke-width="3" fill="none"/>
+              <ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(26 50 53)" stroke="#9BC53A" stroke-width="3" fill="none"/>
+              <path d="M50,84 C50,68 50,62 50,52" stroke="#2F7D43" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <path d="M50,62 C34,63 23,54 22,37 C40,36 50,46 50,62 Z" fill="#2F7D43"/>
+              <path d="M50,52 C66,53 81,44 82,27 C63,26 50,36 50,52 Z" fill="#6FB23A"/>
+            </svg>
+            <span style="font-family:'Outfit';font-weight:600;font-size:12px;letter-spacing:1.8px;color:#18402B">INNOVAGRO</span>
+          </div>
+          <span style="margin-left:auto;font-size:9px;color:#0d6b48;background:rgba(39,176,130,.14);border:1px solid rgba(39,176,130,.25);border-radius:999px;padding:4px 8px;white-space:nowrap;font-weight:500">📍 Córdoba, Ver.</span>
+          <span style="width:24px;height:24px;border-radius:50%;background:linear-gradient(140deg,#0a7a52,#27B082);color:#fff;font-size:9px;font-weight:600;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,80,54,.35)">JS</span>
+        </div>
+
+        <!-- KPIs -->
+        <div style="display:flex;gap:8px;margin-bottom:14px">
+          <div style="flex:1;background:rgba(255,255,255,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.9);border-radius:14px;padding:9px 10px;box-shadow:0 6px 16px rgba(0,60,40,.06)">
+            <div style="font-size:8px;color:#6d6d6d;white-space:nowrap">📈 Rendimiento</div>
+            <div style="font-weight:600;font-size:16px;color:#131714;letter-spacing:-.02em;margin-top:3px">120 <span style="font-size:8px;font-weight:400;color:#6d6d6d">tn/ha</span></div>
+            <div style="font-size:8px;color:#27B082;font-weight:600">↗ +8%</div>
+          </div>
+          <div style="flex:1;background:rgba(255,255,255,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.9);border-radius:14px;padding:9px 10px;box-shadow:0 6px 16px rgba(0,60,40,.06)">
+            <div style="font-size:8px;color:#6d6d6d;white-space:nowrap">💧 Humedad</div>
+            <div style="font-weight:600;font-size:16px;color:#131714;letter-spacing:-.02em;margin-top:3px">72 <span style="font-size:8px;font-weight:400;color:#6d6d6d">%</span></div>
+            <div style="font-size:8px;color:#6d6d6d">&nbsp;</div>
+          </div>
+          <div style="flex:1;background:rgba(255,255,255,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.9);border-radius:14px;padding:9px 10px;box-shadow:0 6px 16px rgba(0,60,40,.06)">
+            <div style="font-size:8px;color:#6d6d6d;white-space:nowrap">🌡 GDA</div>
+            <div style="font-weight:600;font-size:16px;color:#131714;letter-spacing:-.02em;margin-top:3px">1,248 <span style="font-size:8px;font-weight:400;color:#6d6d6d">°C</span></div>
+            <div style="font-size:8px;color:#6d6d6d">&nbsp;</div>
+          </div>
+        </div>
+
+        <!-- lote -->
+        <div style="text-align:center;margin-bottom:8px">
+          <h3 style="font-size:16px;font-weight:600;letter-spacing:-.01em;color:#131714">Lote Norte — A3</h3>
+          <p style="font-size:9.5px;color:#6d6d6d">Caña de azúcar · 145 ha · Zafra 25/26</p>
+        </div>
+
+        <!-- NDVI -->
+        <div style="display:flex;justify-content:center;margin-bottom:12px">
+          <svg width="220" height="120" viewBox="0 0 230 130">
+            <defs>
+              <radialGradient id="ph-g1" cx="45%" cy="45%" r="70%">
+                <stop offset="0%" stop-color="#8ecf3f"/>
+                <stop offset="45%" stop-color="#5fae35"/>
+                <stop offset="80%" stop-color="#3c8f3a"/>
+                <stop offset="100%" stop-color="#2f7d43"/>
+              </radialGradient>
+            </defs>
+            <path d="M28,62 C24,34 56,14 96,17 C128,7 176,10 198,30 C222,50 214,84 188,99 C168,122 118,126 84,116 C48,120 32,92 28,62 Z" fill="url(#ph-g1)" stroke="#256437" stroke-width="2"/>
+            <path d="M96,17 C104,52 92,86 84,116 M198,30 C172,58 140,66 96,64" stroke="#e8f2df" stroke-width="1.6" fill="none" opacity=".8"/>
+            <circle cx="46" cy="88" r="7" fill="#e8930c" opacity=".92"/>
+            <circle cx="196" cy="86" r="7" fill="#d64545" opacity=".92"/>
+          </svg>
+        </div>
+
+        <!-- actions -->
+        <div style="display:flex;gap:7px;justify-content:center;margin-bottom:13px">
+          <span style="font-size:9.5px;padding:7px 11px;border-radius:10px;border:1px solid rgba(0,0,0,.08);background:rgba(255,255,255,.7);color:#444">🕒 Operaciones</span>
+          <span style="font-size:9.5px;padding:7px 11px;border-radius:10px;border:1px solid rgba(0,0,0,.08);background:rgba(255,255,255,.7);color:#444">📋 Tareas</span>
+          <span style="font-size:9.5px;padding:7px 11px;border-radius:10px;background:linear-gradient(135deg,#005236,#27B082);color:#fff;box-shadow:0 4px 10px rgba(0,82,54,.3)">＋ Agregar</span>
+        </div>
+
+        <!-- salud -->
+        <div style="display:flex;align-items:center;gap:12px;justify-content:center;margin-bottom:12px">
+          <div style="text-align:center">
+            <div style="font-weight:700;font-size:22px;color:#27B082;letter-spacing:-.02em">87%</div>
+            <div style="font-size:8.5px;color:#6d6d6d">Salud general</div>
+          </div>
+          <div style="display:flex;gap:8px;font-size:8px;color:#6d6d6d;align-items:center">
+            <span><span style="width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:3px;background:#2f7d43"></span>Óptimo</span>
+            <span><span style="width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:3px;background:#9bc53a"></span>Bueno</span>
+            <span><span style="width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:3px;background:#e8930c"></span>Moderado</span>
+          </div>
+        </div>
+
+        <!-- clima -->
+        <div style="background:rgba(255,255,255,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.9);border-radius:16px 16px 0 0;padding:11px 13px 18px;box-shadow:0 -2px 20px rgba(0,60,40,.05)">
+          <div style="display:flex;justify-content:space-between;font-size:8px;color:#6d6d6d;letter-spacing:1px">
+            <span>☀️ CLIMA</span><span>AHORA</span>
+          </div>
+          <div style="font-weight:600;font-size:20px;margin-top:3px;letter-spacing:-.02em;color:#131714">24°</div>
+        </div>
+      </div>
+
+      <!-- glass screen reflection -->
+      <div style="position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.35) 0%,rgba(255,255,255,0) 22%,rgba(255,255,255,0) 78%,rgba(255,255,255,.12) 100%);pointer-events:none;z-index:5"></div>
+    </div>
+  </div>
+</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trusted -->
+    <div style="max-width:1160px;margin:44px auto 0;text-align:center">
+      <div style="font-size:16px;color:#9aa39d;margin-bottom:28px">Confían en los líderes</div>
+      <div style="overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)">
+        <div style="display:flex;align-items:center;width:max-content;animation:marquee 28s linear infinite">
+          <span style="flex:none;margin-right:96px"><img src="assets/aliados/logo-fira.jpg" alt="FIRA" style="height:46px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px"><img src="assets/aliados/logo-unpca.png" alt="UNPCA" style="height:52px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px"><img src="assets/aliados/logo-sumagro.png" alt="Sumagro" style="height:44px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px"><img src="assets/aliados/logo-salado-vega.png" alt="Agropecuaria Salado Vega" style="height:56px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px" aria-hidden="true"><img src="assets/aliados/logo-fira.jpg" alt="" style="height:46px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px" aria-hidden="true"><img src="assets/aliados/logo-unpca.png" alt="" style="height:52px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px" aria-hidden="true"><img src="assets/aliados/logo-sumagro.png" alt="" style="height:44px;width:auto;filter:grayscale(1);opacity:.5"></span>
+          <span style="flex:none;margin-right:96px" aria-hidden="true"><img src="assets/aliados/logo-salado-vega.png" alt="" style="height:56px;width:auto;filter:grayscale(1);opacity:.5"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FUNCIONES ===================== -->
+  <section id="funcionalidades" data-stage style="position:relative;padding:80px 24px;overflow:hidden">
+    <div data-depth="14" style="position:absolute;top:60px;left:-80px;width:480px;height:480px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(21,184,154,.20),transparent 68%);filter:blur(28px);animation:auroraDrift 22s ease-in-out infinite"></div></div>
+    <div data-depth="22" style="position:absolute;top:320px;right:-90px;width:440px;height:440px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(155,197,58,.18),transparent 68%);filter:blur(30px);animation:auroraDrift2 19s ease-in-out infinite"></div></div>
+    <div data-depth="10" style="position:absolute;bottom:-120px;left:42%;width:520px;height:400px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(39,176,130,.14),transparent 70%);filter:blur(32px);animation:auroraDrift 26s ease-in-out infinite"></div></div>
+    <div style="position:relative;z-index:2;max-width:1160px;margin:0 auto">
+      <div data-reveal style="text-align:center;margin-bottom:44px;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <span style="display:inline-block;font-size:13px;color:#6d6d6d;border:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.7);border-radius:999px;padding:5px 15px;box-shadow:0 2px 6px rgba(0,0,0,.04)">Funciones</span>
+        <h2 style="font-size:clamp(30px,3.4vw,46px);font-weight:500;letter-spacing:-.03em;line-height:1.15;margin-top:16px;color:#131714">Toma el control total de tu operación<br>con datos en tiempo real.</h2>
+      </div>
+      <div data-func-grid style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+
+        <div data-reveal data-glow data-tilt style="position:relative;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease,box-shadow .3s;background:rgba(255,255,255,.55);backdrop-filter:blur(20px) saturate(1.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);border:1px solid rgba(255,255,255,.7);border-radius:22px;padding:16px 16px 24px;box-shadow:0 10px 34px rgba(0,60,40,.08),inset 0 1px 0 rgba(255,255,255,.9)">
+          <div style="position:relative;border-radius:14px;height:260px;margin-bottom:20px;overflow:hidden;background:#e6ebe6;border:1px solid rgba(255,255,255,.6)">
+            <img src="assets/func/telemetria.webp" loading="lazy" alt="Telemetría de maquinaria en cabina" style="width:100%;height:100%;object-fit:cover;display:block">
+          </div>
+          <h3 style="font-size:24px;font-weight:600;letter-spacing:-.02em;margin:0 8px 8px;color:#131714">Análisis Multimaquinaria</h3>
+          <p style="font-size:14px;color:#55605a;margin:0 8px;line-height:1.55">Evalúa automáticamente archivos de maquinaria (KML, Shapefile, etc.) para medir la calidad de aplicaciones aéreas, fertilización y cosecha, con métricas precisas y reportes inmediatos.</p>
+        </div>
+
+        <div data-reveal data-glow data-tilt style="position:relative;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease,box-shadow .3s;background:rgba(255,255,255,.55);backdrop-filter:blur(20px) saturate(1.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);border:1px solid rgba(255,255,255,.7);border-radius:22px;padding:16px 16px 24px;box-shadow:0 10px 34px rgba(0,60,40,.08),inset 0 1px 0 rgba(255,255,255,.9)">
+          <div style="position:relative;border-radius:14px;height:260px;margin-bottom:20px;overflow:hidden;background:#e6ebe6;border:1px solid rgba(255,255,255,.6)">
+            <img src="assets/func/ortofotos.jpg" loading="lazy" alt="Ortofoto aérea con detección de plantas" style="width:100%;height:100%;object-fit:cover;display:block">
+            <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,28,18,.16),transparent 38%,rgba(0,28,18,.16));pointer-events:none"></div>
+            <svg viewBox="0 0 60 60" width="52" height="52" style="position:absolute;left:18px;bottom:18px;opacity:.92"><g fill="none" stroke="#27B082" stroke-width="2.6" stroke-linecap="round"><path d="M4,16 V4 H16"/><path d="M44,4 H56 V16"/><path d="M56,44 V56 H44"/><path d="M16,56 H4 V44"/></g><circle cx="30" cy="30" r="3" fill="#27B082"/></svg>
+            <div style="position:absolute;top:14px;right:16px;filter:drop-shadow(0 12px 16px rgba(0,18,10,.5));animation:floatY 5s ease-in-out infinite">
+              <svg viewBox="0 0 100 76" width="78" height="59"><g stroke="#12201a" stroke-width="4.5" stroke-linecap="round"><line x1="50" y1="46" x2="22" y2="24"/><line x1="50" y1="46" x2="78" y2="24"/><line x1="50" y1="46" x2="26" y2="62"/><line x1="50" y1="46" x2="74" y2="62"/></g><g fill="#2f7d43"><ellipse cx="22" cy="22" rx="18" ry="4.4"/><ellipse cx="78" cy="22" rx="18" ry="4.4"/><ellipse cx="26" cy="64" rx="16" ry="4"/><ellipse cx="74" cy="64" rx="16" ry="4"/></g><g fill="#12201a"><circle cx="22" cy="22" r="4.5"/><circle cx="78" cy="22" r="4.5"/><circle cx="26" cy="64" r="4"/><circle cx="74" cy="64" r="4"/></g><rect x="37" y="38" width="26" height="18" rx="6" fill="#141a17"/><circle cx="50" cy="47" r="4" fill="#27B082"/></svg>
+            </div>
+          </div>
+          <h3 style="font-size:24px;font-weight:600;letter-spacing:-.02em;margin:0 8px 8px;color:#131714">Análisis de Ortofotos</h3>
+          <p style="font-size:14px;color:#55605a;margin:0 8px;line-height:1.55">Analiza ortofotos con IA para contar plantas, evaluar densidad y vigor, y generar mapas precisos de distribución, surcos y zonas degradadas, optimizando siembra, riego y fertilización.</p>
+        </div>
+
+        <div data-reveal data-glow data-tilt style="position:relative;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease,box-shadow .3s;background:rgba(255,255,255,.55);backdrop-filter:blur(20px) saturate(1.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);border:1px solid rgba(255,255,255,.7);border-radius:22px;padding:16px 16px 24px;box-shadow:0 10px 34px rgba(0,60,40,.08),inset 0 1px 0 rgba(255,255,255,.9)">
+          <div style="position:relative;border-radius:14px;height:260px;margin-bottom:20px;overflow:hidden;background:#1a9fd4;border:1px solid rgba(255,255,255,.6)">
+            <img src="assets/func/formulario.webp" loading="lazy" alt="App de formularios digitales digiformsapp" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block">
+          </div>
+          <h3 style="font-size:24px;font-weight:600;letter-spacing:-.02em;margin:0 8px 8px;color:#131714">Digitaliza tu operación agrícola</h3>
+          <p style="font-size:14px;color:#55605a;margin:0 8px;line-height:1.55">Convierte cualquier formulario de papel en digital y captura datos desde tu celular, incluso sin internet. Reduce tiempos y costos, asegura trazabilidad y recibe alertas.</p>
+        </div>
+
+        <div data-reveal data-glow data-tilt style="position:relative;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease,box-shadow .3s;background:rgba(255,255,255,.55);backdrop-filter:blur(20px) saturate(1.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);border:1px solid rgba(255,255,255,.7);border-radius:22px;padding:16px 16px 24px;box-shadow:0 10px 34px rgba(0,60,40,.08),inset 0 1px 0 rgba(255,255,255,.9)">
+          <div style="position:relative;border-radius:14px;height:260px;margin-bottom:20px;overflow:hidden;background:#2c4a3a;border:1px solid rgba(255,255,255,.6)">
+            <img src="assets/func/sig-agricola.webp" loading="lazy" alt="SIG agrícola con estado de lotes sobre mapa satelital" style="width:100%;height:100%;object-fit:cover;display:block">
+          </div>
+          <h3 style="font-size:24px;font-weight:600;letter-spacing:-.02em;margin:0 8px 8px;color:#131714">SIG Agrícola</h3>
+          <p style="font-size:14px;color:#55605a;margin:0 8px;line-height:1.55">Mapea datos espaciales de tus cultivos y genera mapas de planificación y ejecución. Delimita parcelas, analiza el territorio y optimiza la gestión agrícola.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTEGRACIONES ===================== -->
+  <section id="integraciones" data-stage style="position:relative;padding:70px 24px 84px;overflow:hidden">
+    <div data-depth="14" style="position:absolute;top:40px;left:-60px;width:460px;height:460px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(39,176,130,.18),transparent 68%);filter:blur(28px);animation:auroraDrift 21s ease-in-out infinite"></div></div>
+    <div data-depth="20" style="position:absolute;bottom:-40px;right:-60px;width:420px;height:420px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(21,184,154,.16),transparent 68%);filter:blur(30px);animation:auroraDrift2 18s ease-in-out infinite"></div></div>
+    <div style="position:relative;z-index:2;max-width:1160px;margin:0 auto">
+      <div data-reveal style="text-align:center;margin-bottom:40px;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <span style="display:inline-block;font-size:13px;color:#6d6d6d;border:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.7);border-radius:999px;padding:5px 15px;box-shadow:0 2px 6px rgba(0,0,0,.04)">Integraciones</span>
+        <h2 style="font-size:clamp(30px,3.4vw,46px);font-weight:500;letter-spacing:-.03em;line-height:1.15;margin-top:16px;color:#131714">Conecta tus herramientas para<br>optimizar tus flujos de trabajo.</h2>
+      </div>
+      <div data-reveal style="position:relative;height:340px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <div style="position:absolute;bottom:-250px;left:50%;transform:translateX(-50%);width:640px;height:500px;border-radius:50%;background:radial-gradient(closest-side,rgba(39,176,130,.16) 0%,rgba(247,247,247,.6) 55%,rgba(255,255,255,0) 100%)"></div>
+        <div style="position:absolute;left:calc(50% - 50px);bottom:236px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);border-radius:16px;width:100px;height:58px;display:flex;align-items:center;justify-content:center;padding:11px 13px;box-shadow:0 10px 26px rgba(0,60,40,.13);transform:rotate(-3deg);animation:tileFloat 5s ease-in-out infinite alternate"><img loading="lazy" src="assets/int/cnh.svg" alt="CNH Industrial" style="max-width:100%;max-height:100%;object-fit:contain;display:block"></div>
+        <div style="position:absolute;left:calc(50% - 176px);bottom:196px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);border-radius:16px;width:100px;height:58px;display:flex;align-items:center;justify-content:center;padding:12px 13px;box-shadow:0 10px 26px rgba(0,60,40,.13);transform:rotate(4deg);animation:tileFloat 5s ease-in-out infinite alternate;animation-delay:-2.2s"><img loading="lazy" src="assets/int/qgis.png" alt="QGIS" style="max-width:100%;max-height:100%;object-fit:contain;display:block"></div>
+        <div style="position:absolute;left:calc(50% + 76px);bottom:192px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);border-radius:16px;width:100px;height:58px;display:flex;align-items:center;justify-content:center;padding:11px 13px;box-shadow:0 10px 26px rgba(0,60,40,.13);transform:rotate(3deg);animation:tileFloat 5s ease-in-out infinite alternate;animation-delay:-.6s"><img loading="lazy" src="assets/int/case-ih.svg" alt="Case IH" style="max-width:100%;max-height:100%;object-fit:contain;display:block"></div>
+        <div style="position:absolute;left:calc(50% - 184px);bottom:96px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);border-radius:16px;width:100px;height:58px;display:flex;align-items:center;justify-content:center;padding:9px;box-shadow:0 10px 26px rgba(0,60,40,.13);transform:rotate(-4deg);animation:tileFloat 5s ease-in-out infinite alternate;animation-delay:-3.4s"><img loading="lazy" src="assets/int/john-deere.svg" alt="John Deere" style="max-width:100%;max-height:100%;object-fit:contain;display:block"></div>
+        <div style="position:absolute;left:calc(50% + 84px);bottom:86px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);border-radius:16px;width:100px;height:58px;display:flex;align-items:center;justify-content:center;padding:12px 13px;box-shadow:0 10px 26px rgba(0,60,40,.13);transform:rotate(4deg);animation:tileFloat 5s ease-in-out infinite alternate;animation-delay:-1.8s"><img loading="lazy" src="assets/int/ag-leader.png" alt="Ag Leader" style="max-width:100%;max-height:100%;object-fit:contain;display:block"></div>
+        <div style="position:absolute;left:calc(50% - 50px);bottom:40px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);border-radius:16px;width:100px;height:58px;display:flex;align-items:center;justify-content:center;padding:11px 12px;box-shadow:0 10px 26px rgba(0,60,40,.13);transform:rotate(-3deg);animation:tileFloat 5s ease-in-out infinite alternate;animation-delay:-2.8s"><img loading="lazy" src="assets/int/sveaverken.jpg" alt="Sveaverken" style="max-width:100%;max-height:100%;object-fit:contain;display:block;border-radius:4px"></div>
+        <div style="position:absolute;bottom:100px;left:50%;transform:translateX(-50%);width:88px;height:88px;border-radius:50%;background:linear-gradient(140deg,#005236,#0a7a52);display:flex;align-items:center;justify-content:center;box-shadow:0 14px 34px rgba(0,82,54,.3);z-index:2">
+          <svg viewBox="0 0 100 100" style="width:54px;height:54px"><ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(-24 50 53)" stroke="#fff" stroke-width="2.1" fill="none"/><ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(26 50 53)" stroke="#fff" stroke-width="2.1" fill="none"/><path d="M50,82 C50,70 50,64 50,55" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M50,59.1 C39.6,60 31.4,53.6 30.75,41.3 C42.85,40.45 50,48.05 50,59.1 Z" fill="#fff"/><path d="M50,52.3 C61.9,53.05 73.3,46.15 74.15,33.5 C59.7,33.15 50,40.3 50,52.3 Z" fill="#fff"/><circle cx="83.5" cy="35" r="3.6" fill="#fff"/><circle cx="16.5" cy="71" r="3.2" fill="#fff"/></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== REVIEWS ===================== -->
+  <section id="testimonios" data-stage style="position:relative;padding:70px 0 84px;overflow:hidden">
+    <div data-depth="14" style="position:absolute;top:60px;right:-70px;width:460px;height:460px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(39,176,130,.16),transparent 68%);filter:blur(28px);animation:auroraDrift2 20s ease-in-out infinite"></div></div>
+    <div data-depth="20" style="position:absolute;bottom:0;left:-70px;width:420px;height:420px;z-index:0;pointer-events:none"><div style="width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(155,197,58,.14),transparent 68%);filter:blur(30px);animation:auroraDrift 22s ease-in-out infinite"></div></div>
+    <div style="position:relative;z-index:2;max-width:1160px;margin:0 auto;padding:0 24px">
+      <div data-reveal style="text-align:center;margin-bottom:44px;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <span style="display:inline-block;font-size:13px;color:#6d6d6d;border:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.7);border-radius:999px;padding:5px 15px;box-shadow:0 2px 6px rgba(0,0,0,.04)">Reviews</span>
+        <h2 style="font-size:clamp(30px,3.4vw,46px);font-weight:500;letter-spacing:-.03em;line-height:1.15;margin-top:16px;color:#131714">Historias reales, resultados reales</h2>
+      </div>
+    </div>
+    <div style="position:relative;z-index:2;overflow:hidden;margin-bottom:64px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)">
+      <div data-revtrack style="display:flex;width:max-content;animation:marquee 46s linear infinite">
+        <div style="flex:0 0 400px;margin-right:24px;background:rgba(250,250,250,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:14px;box-shadow:0 8px 24px rgba(0,60,40,.05)">
+          <div style="color:#f5c518;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="font-size:18px;font-weight:500;color:#55605a;flex:1;line-height:1.4;letter-spacing:-.01em">Es una plataforma que con datos agrícolas centraliza la información más importante, para tener un mayor control y mejor toma de decisiones para el campo.</blockquote>
+          <div style="display:flex;align-items:center;gap:11px"><div style="width:38px;height:38px;border-radius:50%;color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;background:#005236">EM</div><div><div style="font-weight:600;font-size:13.5px">Emilio</div><div style="font-size:12px;color:#6d6d6d">Agropecuaria Salado</div></div></div>
+        </div>
+        <div style="flex:0 0 400px;margin-right:24px;background:rgba(250,250,250,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:14px;box-shadow:0 8px 24px rgba(0,60,40,.05)">
+          <div style="color:#f5c518;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="font-size:18px;font-weight:500;color:#55605a;flex:1;line-height:1.4;letter-spacing:-.01em">Control total del campo gracias a la información organizada en INNOVAGRO.</blockquote>
+          <div style="display:flex;align-items:center;gap:11px"><div style="width:38px;height:38px;border-radius:50%;color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;background:#27B082">RF</div><div><div style="font-weight:600;font-size:13.5px">Rodolfo Fuentes</div><div style="font-size:12px;color:#6d6d6d">Jefe de AP en Ingenio El Pilar</div></div></div>
+        </div>
+        <div style="flex:0 0 400px;margin-right:24px;background:rgba(250,250,250,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:14px;box-shadow:0 8px 24px rgba(0,60,40,.05)">
+          <div style="color:#f5c518;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="font-size:18px;font-weight:500;color:#55605a;flex:1;line-height:1.4;letter-spacing:-.01em">Todos los datos agrícolas en un solo lugar, para mejores resultados.</blockquote>
+          <div style="display:flex;align-items:center;gap:11px"><div style="width:38px;height:38px;border-radius:50%;color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;background:#2F7D43">EC</div><div><div style="font-weight:600;font-size:13.5px">Erick Cuellar</div><div style="font-size:12px;color:#6d6d6d">CEO AgtechApps</div></div></div>
+        </div>
+        <div style="flex:0 0 400px;margin-right:24px;background:rgba(250,250,250,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:14px;box-shadow:0 8px 24px rgba(0,60,40,.05)">
+          <div style="color:#f5c518;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="font-size:18px;font-weight:500;color:#55605a;flex:1;line-height:1.4;letter-spacing:-.01em">INNOVAGRO facilita la toma de decisiones en el campo.</blockquote>
+          <div style="display:flex;align-items:center;gap:11px"><div style="width:38px;height:38px;border-radius:50%;color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;background:#18402B">JJ</div><div><div style="font-weight:600;font-size:13.5px">José Juan</div><div style="font-size:12px;color:#6d6d6d">Agropecuaria Salado</div></div></div>
+        </div>
+        <div style="flex:0 0 400px;margin-right:24px;background:rgba(250,250,250,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:14px;box-shadow:0 8px 24px rgba(0,60,40,.05)">
+          <div style="color:#f5c518;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="font-size:18px;font-weight:500;color:#55605a;flex:1;line-height:1.4;letter-spacing:-.01em">Información agrícola centralizada que potencia la productividad.</blockquote>
+          <div style="display:flex;align-items:center;gap:11px"><div style="width:38px;height:38px;border-radius:50%;color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;background:#15B89A">PR</div><div><div style="font-weight:600;font-size:13.5px">Pablo Romero</div><div style="font-size:12px;color:#6d6d6d">CEO Graniot</div></div></div>
+        </div>
+      </div>
+    </div>
+    <div style="position:relative;z-index:2;max-width:1160px;margin:0 auto;padding:0 24px">
+      <div data-reveal data-metrics data-glow style="position:relative;display:flex;justify-content:center;text-align:center;align-items:center;max-width:880px;margin:0 auto;padding:36px 20px;background:rgba(255,255,255,.5);backdrop-filter:blur(20px) saturate(1.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);border:1px solid rgba(255,255,255,.7);border-radius:24px;box-shadow:0 14px 44px rgba(0,60,40,.08),inset 0 1px 0 rgba(255,255,255,.9);opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <div style="padding:0 52px;border-right:1px solid #e5e5e5"><div data-count="20" data-suffix="%" style="font-weight:500;font-size:clamp(44px,4.5vw,64px);letter-spacing:-.03em;color:#131714;line-height:1.1">0%</div><div style="font-size:16px;color:#6d6d6d;margin-top:6px">Incremento en la productividad*</div></div>
+        <div style="padding:0 52px;border-right:1px solid #e5e5e5"><div data-count="35" data-suffix="%" style="font-weight:500;font-size:clamp(44px,4.5vw,64px);letter-spacing:-.03em;color:#131714;line-height:1.1">0%</div><div style="font-size:16px;color:#6d6d6d;margin-top:6px">Reducción en costos operativos*</div></div>
+        <div style="padding:0 52px"><div data-count="500" data-suffix="M+" style="font-weight:500;font-size:clamp(44px,4.5vw,64px);letter-spacing:-.03em;color:#131714;line-height:1.1">0M+</div><div style="font-size:16px;color:#6d6d6d;margin-top:6px">Datos procesados exitosamente</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section id="faq" style="padding:70px 24px 84px">
+    <div data-faq-grid style="max-width:1160px;margin:0 auto;display:grid;grid-template-columns:.75fr 1.25fr;gap:56px;align-items:start">
+      <div data-reveal style="opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <span style="display:inline-block;font-size:13px;color:#6d6d6d;border:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.7);border-radius:999px;padding:5px 15px;box-shadow:0 2px 6px rgba(0,0,0,.04)">FAQ</span>
+        <h2 style="font-size:clamp(32px,3.4vw,46px);font-weight:500;line-height:1.15;letter-spacing:-.03em;margin-top:16px;color:#131714">Todo lo que necesitas saber</h2>
+      </div>
+      <div data-reveal style="opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <details data-faq style="background:rgba(255,255,255,.6);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,60,40,.05);overflow:hidden">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 24px;font-weight:500;font-size:18px;letter-spacing:-.01em;gap:16px">¿Qué es INNOVAGRO y cómo puede ayudarme en el campo?<span data-plus style="font-size:20px;color:#9aa39d;transition:transform .25s;flex:none;line-height:1">＋</span></summary>
+          <div style="padding:0 24px 22px;color:#55605a;font-size:15px;line-height:1.55">INNOVAGRO es la plataforma de Dataris en México: una solución integral para el análisis de datos agrícolas. Centraliza ortofotos, datos de maquinaria, formularios digitales y cartografía en un solo lugar, para que tomes decisiones con información en tiempo real y aumentes la eficiencia y productividad de tu operación.</div>
+        </details>
+        <details data-faq style="background:rgba(255,255,255,.6);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,60,40,.05);overflow:hidden">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 24px;font-weight:500;font-size:18px;letter-spacing:-.01em;gap:16px">¿Qué tipos de datos puedo cargar y gestionar en INNOVAGRO?<span data-plus style="font-size:20px;color:#9aa39d;transition:transform .25s;flex:none;line-height:1">＋</span></summary>
+          <div style="padding:0 24px 22px;color:#55605a;font-size:15px;line-height:1.55">Puedes cargar archivos de maquinaria (KML, Shapefile y más), ortofotos de dron, datos de sensores, formularios de campo digitalizados y capas SIG. La plataforma los procesa automáticamente y genera métricas, mapas y reportes inmediatos.</div>
+        </details>
+        <details data-faq style="background:rgba(255,255,255,.6);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,60,40,.05);overflow:hidden">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 24px;font-weight:500;font-size:18px;letter-spacing:-.01em;gap:16px">¿INNOVAGRO garantiza la seguridad de mis datos?<span data-plus style="font-size:20px;color:#9aa39d;transition:transform .25s;flex:none;line-height:1">＋</span></summary>
+          <div style="padding:0 24px 22px;color:#55605a;font-size:15px;line-height:1.55">Sí. Tus datos se almacenan cifrados en infraestructura en la nube con respaldos automáticos y controles de acceso por rol. Tú decides quién de tu equipo puede ver o editar cada módulo, y la información de tu operación nunca se comparte con terceros.</div>
+        </details>
+        <details data-faq style="background:rgba(255,255,255,.6);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,60,40,.05);overflow:hidden">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 24px;font-weight:500;font-size:18px;letter-spacing:-.01em;gap:16px">¿Puedo integrar INNOVAGRO con otras herramientas que ya uso?<span data-plus style="font-size:20px;color:#9aa39d;transition:transform .25s;flex:none;line-height:1">＋</span></summary>
+          <div style="padding:0 24px 22px;color:#55605a;font-size:15px;line-height:1.55">Sí. INNOVAGRO se conecta con monitores de maquinaria (John Deere, Case IH, CNH), sensores Falker y AgLeader, y herramientas SIG como QGIS, para que tus flujos de trabajo sigan funcionando sin fricciones.</div>
+        </details>
+        <details data-faq style="background:rgba(255,255,255,.6);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,60,40,.05);overflow:hidden">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 24px;font-weight:500;font-size:18px;letter-spacing:-.01em;gap:16px">¿Cómo me ayuda INNOVAGRO a tomar mejores decisiones?<span data-plus style="font-size:20px;color:#9aa39d;transition:transform .25s;flex:none;line-height:1">＋</span></summary>
+          <div style="padding:0 24px 22px;color:#55605a;font-size:15px;line-height:1.55">Convierte datos dispersos en indicadores accionables: salud del cultivo, calidad de aplicaciones, alertas de estrés hídrico y proyecciones de cosecha, todo con información en tiempo real y su historial.</div>
+        </details>
+        <details data-faq style="background:rgba(255,255,255,.6);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,60,40,.05);overflow:hidden">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 24px;font-weight:500;font-size:18px;letter-spacing:-.01em;gap:16px">¿Necesito internet en campo para capturar datos?<span data-plus style="font-size:20px;color:#9aa39d;transition:transform .25s;flex:none;line-height:1">＋</span></summary>
+          <div style="padding:0 24px 22px;color:#55605a;font-size:15px;line-height:1.55">No. El módulo de digitalización funciona sin conexión: captura datos desde tu celular en campo y se sincronizan automáticamente cuando recuperas señal, asegurando trazabilidad completa.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEMO / CONTACTO ===================== -->
+  <section id="contacto" data-stage style="position:relative;padding:70px 24px 90px;text-align:center;overflow:hidden">
+    <div style="position:absolute;top:40px;left:50%;transform:translateX(-50%);width:640px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(39,176,130,.22),transparent 68%);filter:blur(30px);animation:auroraDrift 20s ease-in-out infinite;z-index:0"></div>
+    <div style="position:relative;z-index:2;max-width:1160px;margin:0 auto">
+      <div data-reveal style="margin-bottom:36px;opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <span style="display:inline-block;font-size:13px;color:#6d6d6d;border:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.7);border-radius:999px;padding:5px 15px;box-shadow:0 2px 6px rgba(0,0,0,.04)">Contacto</span>
+        <h2 style="font-size:clamp(30px,3.4vw,46px);font-weight:500;letter-spacing:-.03em;line-height:1.15;margin-top:16px;color:#131714">Solicita una demo</h2>
+      </div>
+      <div data-reveal style="max-width:672px;margin:0 auto;background:linear-gradient(140deg,#005236,#0a7a52);border-radius:32px;padding:11px;box-shadow:0 24px 60px rgba(0,82,54,.2);opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease">
+        <form data-form style="background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-radius:22px;padding:32px 40px;text-align:left">
+          <label style="display:block;font-size:13px;color:#111;margin:0 0 6px;font-weight:400" for="f-nombre">Nombre y Apellidos</label>
+          <input id="f-nombre" name="nombre" type="text" placeholder="Nombre" required style="width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.06);border-radius:10px;background:rgba(243,243,243,.8);font-family:'Inter';font-size:15px;color:#131714;outline:none;transition:box-shadow .2s,border-color .2s">
+          <label style="display:block;font-size:13px;color:#111;margin:16px 0 6px;font-weight:400" for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" placeholder="Email" required style="width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.06);border-radius:10px;background:rgba(243,243,243,.8);font-family:'Inter';font-size:15px;color:#131714;outline:none;transition:box-shadow .2s,border-color .2s">
+          <label style="display:block;font-size:13px;color:#111;margin:16px 0 6px;font-weight:400" for="f-telefono">Teléfono</label>
+          <input id="f-telefono" name="telefono" type="tel" placeholder="Teléfono" style="width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.06);border-radius:10px;background:rgba(243,243,243,.8);font-family:'Inter';font-size:15px;color:#131714;outline:none;transition:box-shadow .2s,border-color .2s">
+          <label style="display:block;font-size:13px;color:#111;margin:16px 0 6px;font-weight:400" for="f-pais">País</label>
+          <input id="f-pais" name="pais" type="text" placeholder="País" style="width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.06);border-radius:10px;background:rgba(243,243,243,.8);font-family:'Inter';font-size:15px;color:#131714;outline:none;transition:box-shadow .2s,border-color .2s">
+          <label style="display:block;font-size:13px;color:#111;margin:16px 0 6px;font-weight:400" for="f-cultivo">Cultivo</label>
+          <input id="f-cultivo" name="cultivo" type="text" placeholder="Cultivo" style="width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.06);border-radius:10px;background:rgba(243,243,243,.8);font-family:'Inter';font-size:15px;color:#131714;outline:none;transition:box-shadow .2s,border-color .2s">
+          <label style="display:block;font-size:13px;color:#111;margin:16px 0 6px;font-weight:400" for="f-hectareas">Hectáreas</label>
+          <select id="f-hectareas" name="hectareas" style="width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.06);border-radius:10px;background:rgba(243,243,243,.8);font-family:'Inter';font-size:15px;color:#131714;outline:none">
+            <option value="" selected>Selecciona…</option>
+            <option>50 a 100 Ha</option>
+            <option>500 a 1000 Ha</option>
+            <option>1000 a 5000 Ha</option>
+            <option>+5000 Ha</option>
+          </select>
+          <button type="submit" style="display:block;margin:26px auto 0;border:none;cursor:pointer;background:linear-gradient(135deg,#005236,#27B082);color:#fff;padding:13px 44px;border-radius:999px;font-family:'Inter';font-weight:500;font-size:15px;box-shadow:0 8px 20px rgba(0,82,54,.28);transition:transform .2s">Enviar</button>
+          <p style="font-size:11.5px;color:#9aa39d;text-align:center;margin-top:14px">Al enviar aceptas nuestro <a href="privacidad.html" style="color:#005236;text-decoration:underline">Aviso de privacidad</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer style="background:#f7f9f7;padding:56px 24px 0;margin-top:20px">
+    <div style="max-width:1160px;margin:0 auto">
+      <div data-foot-grid style="display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:48px">
+        <div>
+          <div style="font-size:20px;color:#9aa39d">Contáctanos en</div>
+          <a href="mailto:jsalado@inovagro.mx" style="font-size:26px;font-weight:500;color:#131714;display:block;margin:4px 0 2px;letter-spacing:-.01em">jsalado@inovagro.mx</a>
+          <a href="tel:+522299299850" style="font-size:15px;color:#6d6d6d;display:block;margin-bottom:24px">+52 229 929 9850</a>
+          <form data-news style="display:flex;max-width:300px;background:#fff;border-radius:999px;padding:4px;box-shadow:0 2px 8px rgba(0,0,0,.05)">
+            <input type="email" placeholder="nombre@correo.com" aria-label="Correo para el boletín" required style="flex:1;border:none;outline:none;background:none;padding:8px 14px;font-family:'Inter';font-size:13px;min-width:0">
+            <button type="submit" style="border:none;background:linear-gradient(135deg,#005236,#27B082);color:#fff;border-radius:999px;padding:8px 18px;font-family:'Inter';font-weight:500;font-size:13px;cursor:pointer;white-space:nowrap">Suscribirme</button>
+          </form>
+        </div>
+        <div>
+          <h4 style="font-size:13px;color:#9aa39d;font-weight:500;margin-bottom:14px">Enlaces</h4>
+          <a href="#inicio" style="display:block;font-size:14px;margin-bottom:10px;color:#111">Inicio</a>
+          <a href="#funcionalidades" style="display:block;font-size:14px;margin-bottom:10px;color:#111">Funcionalidades</a>
+          <a href="#contacto" style="display:block;font-size:14px;margin-bottom:10px;color:#111">Contacto</a>
+        </div>
+        <div>
+          <h4 style="font-size:13px;color:#9aa39d;font-weight:500;margin-bottom:14px">Más recursos</h4>
+          <a href="#faq" style="display:block;font-size:14px;margin-bottom:10px;color:#111">FAQ</a>
+          <a href="#testimonios" style="display:block;font-size:14px;margin-bottom:10px;color:#111">Testimonios</a>
+          <a href="terminos.html" style="display:block;font-size:14px;margin-bottom:10px;color:#111">Términos</a>
+          <a href="privacidad.html" style="display:block;font-size:14px;margin-bottom:10px;color:#111">Aviso de privacidad</a>
+        </div>
+      </div>
+      <div style="margin-top:44px;border-top:1px solid #ececec;padding:20px 0;display:flex;align-items:center;justify-content:space-between;font-size:12.5px;color:#6d6d6d">
+        <div style="display:flex;align-items:center;gap:8px">
+          <svg viewBox="0 0 100 100" style="width:24px;height:24px"><ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(-24 50 53)" stroke="#15B89A" stroke-width="2.4" fill="none"/><ellipse cx="50" cy="53" rx="44" ry="17" transform="rotate(26 50 53)" stroke="#9BC53A" stroke-width="2.4" fill="none"/><path d="M50,82 C50,70 50,64 50,55" stroke="#2F7D43" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M50,59.1 C39.6,60 31.4,53.6 30.75,41.3 C42.85,40.45 50,48.05 50,59.1 Z" fill="#2F7D43"/><path d="M50,52.3 C61.9,53.05 73.3,46.15 74.15,33.5 C59.7,33.15 50,40.3 50,52.3 Z" fill="#6FB23A"/></svg>
+          <span style="font-family:'Outfit';font-weight:600;letter-spacing:2.2px;color:#18402B;font-size:13px">INNOVAGRO</span>
+          <em style="font-style:italic;font-weight:400;color:#6d6d6d;font-size:11.5px;margin-left:2px">by</em><b style="font-weight:600;color:#005236;font-size:12.5px">dataris</b>
+        </div>
+        <div>© 2026 INNOVAGRO · Cultiva con datos · Todos los derechos reservados</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/522299299850?text=Hola%2C%20me%20interesa%20una%20demo%20de%20INNOVAGRO" target="_blank" rel="noopener" aria-label="WhatsApp" style="position:fixed;right:26px;bottom:26px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:200;box-shadow:0 10px 26px rgba(37,211,102,.4);transition:transform .2s">
+    <svg viewBox="0 0 32 32" style="width:29px;height:29px;fill:#fff"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4.7 27l5.3-1.6c1.9 1 4 1.6 6 1.6 6.6 0 12-5.3 12-11.9C28 8.3 22.6 3 16 3zm5.9 16.9c-.3.8-1.5 1.5-2.4 1.7-.6.1-1.4.2-4.2-.9-3.5-1.5-5.8-5-6-5.3-.2-.2-1.4-1.9-1.4-3.6s.9-2.5 1.2-2.9c.3-.3.7-.4.9-.4h.7c.2 0 .5-.1.8.6.3.8 1 2.6 1.1 2.8.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.8 1.7 3.2 1.9.4.2.6.2.8-.1.2-.2 1-1.1 1.2-1.5.3-.4.5-.3.9-.2.4.1 2.2 1 2.6 1.2.4.2.6.3.7.5.1.2.1.9-.2 1.8z"/></svg>
+  </a>
+
+</div>
+
+<script>
+class DCLogic {}
+class Component extends DCLogic {
+  componentDidMount() {
+    setTimeout(() => this.setup(), 60);
+  }
+  setup() {
+    // reveal on scroll
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = 1;
+          e.target.style.transform = 'none';
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+
+    // cursor glow on glass
+    document.querySelectorAll('[data-glow]').forEach(card => {
+      if (card.__glow) return; card.__glow = true;
+      const glow = document.createElement('div');
+      glow.style.cssText = 'position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .4s ease;background:radial-gradient(220px circle at 50% 50%,rgba(255,255,255,.5),rgba(255,255,255,0) 62%);z-index:0';
+      Array.from(card.children).forEach(c => { if (getComputedStyle(c).position === 'static') c.style.position = 'relative'; });
+      card.insertBefore(glow, card.firstChild);
+      card.addEventListener('pointermove', e => {
+        const r = card.getBoundingClientRect();
+        glow.style.background = `radial-gradient(240px circle at ${e.clientX - r.left}px ${e.clientY - r.top}px,rgba(255,255,255,.55),rgba(255,255,255,0) 60%)`;
+        glow.style.opacity = 1;
+      });
+      card.addEventListener('pointerleave', () => { glow.style.opacity = 0; });
+    });
+
+    // subtle tilt on feature cards
+    document.querySelectorAll('[data-tilt]').forEach(card => {
+      card.addEventListener('pointermove', e => {
+        const r = card.getBoundingClientRect();
+        const rx = ((e.clientY - r.top) / r.height - 0.5) * -5;
+        const ry = ((e.clientX - r.left) / r.width - 0.5) * 5;
+        card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
+        card.style.boxShadow = '0 22px 50px rgba(0,60,40,.14),inset 0 1px 0 rgba(255,255,255,.9)';
+      });
+      card.addEventListener('pointerleave', () => {
+        card.style.transform = 'none';
+        card.style.boxShadow = '0 10px 34px rgba(0,60,40,.08),inset 0 1px 0 rgba(255,255,255,.9)';
+      });
+    });
+
+    // pointer parallax per stage
+    document.querySelectorAll('[data-stage]').forEach(stage => {
+      const layers = stage.querySelectorAll('[data-depth]');
+      if (!layers.length) return;
+      let raf = null, tx = 0, ty = 0, cx = 0, cy = 0;
+      const apply = () => {
+        cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+        layers.forEach(l => {
+          const d = parseFloat(l.dataset.depth) || 0;
+          l.style.transform = `translate3d(${cx * d}px,${cy * d}px,0)`;
+        });
+        if (Math.abs(tx - cx) > 0.001 || Math.abs(ty - cy) > 0.001) raf = requestAnimationFrame(apply);
+        else raf = null;
+      };
+      stage.addEventListener('pointermove', e => {
+        const r = stage.getBoundingClientRect();
+        tx = ((e.clientX - r.left) / r.width - 0.5) * 2;
+        ty = ((e.clientY - r.top) / r.height - 0.5) * 2;
+        if (!raf) raf = requestAnimationFrame(apply);
+      });
+      stage.addEventListener('pointerleave', () => { tx = 0; ty = 0; if (!raf) raf = requestAnimationFrame(apply); });
+    });
+
+    // FAQ plus rotation
+    document.querySelectorAll('[data-faq]').forEach(d => {
+      d.addEventListener('toggle', () => {
+        const plus = d.querySelector('[data-plus]');
+        if (plus) { plus.style.transform = d.open ? 'rotate(45deg)' : 'none'; plus.style.color = d.open ? '#005236' : '#9aa39d'; }
+      });
+    });
+
+    // metric counters
+    const mio = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        const el = e.target, target = +el.dataset.count, suf = el.dataset.suffix;
+        const t0 = performance.now(), dur = 1300;
+        (function tick(t) {
+          const p = Math.min((t - t0) / dur, 1);
+          el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))) + suf;
+          if (p < 1) requestAnimationFrame(tick);
+        })(t0);
+        mio.unobserve(el);
+      });
+    }, { threshold: 0.6 });
+    document.querySelectorAll('[data-count]').forEach(el => mio.observe(el));
+
+    // reviews marquee duplication
+    const track = document.querySelector('[data-revtrack]');
+    if (track && !track.__dup) { track.__dup = true; track.innerHTML += track.innerHTML; }
+
+    // demo form -> mailto
+    const form = document.querySelector('[data-form]');
+    if (form) form.addEventListener('submit', ev => {
+      ev.preventDefault();
+      const f = ev.target;
+      const cuerpo = encodeURIComponent(
+        `Nombre: ${f.nombre.value}\nEmail: ${f.email.value}\nTeléfono: ${f.telefono.value}\nPaís: ${f.pais.value}\nCultivo: ${f.cultivo.value}\nHectáreas: ${f.hectareas.value}`
+      );
+      location.href = `mailto:jsalado@inovagro.mx?subject=${encodeURIComponent('Solicitud de demo — INNOVAGRO')}&body=${cuerpo}`;
+    });
+
+    // newsletter
+    const news = document.querySelector('[data-news]');
+    if (news) news.addEventListener('submit', ev => { ev.preventDefault(); news.querySelector('input').value = ''; alert('¡Gracias por suscribirte!'); });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => new Component().componentDidMount());
+</script>
+</body>
+</html>
+
